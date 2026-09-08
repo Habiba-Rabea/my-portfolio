@@ -1,5 +1,5 @@
 import React from "react";
-import { Folder, ExternalLink } from "lucide-react";
+import { Folder } from "lucide-react";
 import { projects } from "@/lib/portfolio-data";
 
 export const Projects = () => {
@@ -7,7 +7,7 @@ export const Projects = () => {
     <section id="projects" className="py-20 bg-[#0B0914] text-slate-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Section Title matched with upper section */}
+        {/* Section Title */}
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-white">
             Featured Projects
@@ -46,19 +46,6 @@ export const Projects = () => {
                         </svg>
                       </a>
                     )}
-
-                    {/* Live Demo Link */}
-                    {project.liveUrl && (
-                      <a
-                        href={project.liveUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="p-2 rounded-lg text-slate-400 hover:text-white hover:bg-purple-900/20 transition-all"
-                        title="View Live Demo"
-                      >
-                        <ExternalLink className="w-5 h-5" />
-                      </a>
-                    )}
                   </div>
                 </div>
 
@@ -73,7 +60,7 @@ export const Projects = () => {
                 </p>
               </div>
 
-              {/* Tech Stack Badges - Purple Themed */}
+              {/* Tech Stack Badges */}
               <div className="pt-4 border-t border-purple-950/80">
                 <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag, index) => (
