@@ -96,9 +96,9 @@ export function Experience() {
       {/* Certificate Modal */}
       {selectedCertificate && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
-          <div className="relative w-full max-w-xl rounded-2xl border border-purple-900/40 bg-[#130F26] p-6 shadow-2xl">
+          <div className="relative w-full max-w-2xl rounded-2xl border border-purple-900/40 bg-[#130F26] p-6 shadow-2xl">
             
-            <div className="flex items-center justify-between pb-4 border-b border-purple-900/30 mb-6">
+            <div className="flex items-center justify-between pb-4 border-b border-purple-900/30 mb-4">
               <h3 className="text-base font-bold text-white pr-4">
                 {selectedCertificate.title}
               </h3>
@@ -110,16 +110,13 @@ export function Experience() {
               </button>
             </div>
 
-            <div className="flex flex-col items-center justify-center py-8 px-4 rounded-xl bg-[#0B0914] border border-purple-950 text-center">
-              <div className="p-3.5 rounded-full bg-purple-950/60 border border-purple-800/40 mb-3 text-purple-400">
-                <Award className="h-8 w-8" />
-              </div>
-              <h4 className="text-sm font-bold text-white mb-1">
-                Verified Certificate Document
-              </h4>
-              <p className="text-xs text-slate-400 max-w-xs mb-6">
-                Open or download the official certificate directly.
-              </p>
+            <div className="flex flex-col items-center justify-center py-4 px-2 rounded-xl bg-[#0B0914] border border-purple-950 text-center">
+              {/* عرض مباشر لملف ה-PDF داخل الـ Modal */}
+              <iframe 
+                src={selectedCertificate.url} 
+                className="w-full h-80 rounded-lg border border-purple-900/30 mb-4"
+                title="Certificate Preview"
+              />
 
               <div className="flex flex-wrap items-center justify-center gap-3 w-full sm:w-auto">
                 <a

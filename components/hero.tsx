@@ -81,7 +81,7 @@ export function Hero() {
             >
               <div className="w-full h-full rounded-xl overflow-hidden bg-slate-950">
                 <img
-                  src="/habiba.png"
+                  src="/my-portfolio/habiba.png"
                   alt="Habiba Rabee"
                   className="w-full h-full object-cover"
                 />

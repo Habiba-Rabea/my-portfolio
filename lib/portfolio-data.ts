@@ -107,7 +107,7 @@ export const experience = [
     role: '.NET & React Web Development Specialist Trainee',
     org: 'DEPI — Digital Egypt Pioneers Initiative',
     period: '06/2026 – 12/2026',
-    certificateUrl: '/DEPI.pdf',
+    certificateUrl: '/my-portfolio/DEPI.pdf',
     points: [
       'Developing scalable back-end microservices and Web APIs using ASP.NET Core and Entity Framework Core.',
       'Designing secure user authentication mechanisms, ORM data access layers, and database schemas in SQL Server.',
@@ -118,7 +118,7 @@ export const experience = [
     role: 'React Front-End Development Intern',
     org: 'Gig Skills Boost Internship — Nile University',
     period: '07/2026 – 10/2026',
-    certificateUrl: '/Gig_Skill_Boost.pdf',
+    certificateUrl: '/my-portfolio/Gig_Skill_Boost.pdf',
     points: [
       'Building dynamic and responsive user interfaces using React.js, Bootstrap, and modern web standards (HTML5/CSS3).',
       'Applying core React concepts, component architecture, state management, and props for modular UI development.',
@@ -129,7 +129,7 @@ export const experience = [
     role: 'Web Development Intern',
     org: 'Sprints x Microsoft Summer Camp',
     period: '07/2025 – 08/2025',
-    certificateUrl: '/Sprints.pdf', // ملف الشهادة الموجود في مجلد public
+    certificateUrl: '/my-portfolio/Sprints.pdf', // ملف الشهادة الموجود في مجلد public
     points: [
       'Built responsive web interfaces and core Web development fundementals during the summer training program.',
       'Applied modern UI development principles, component architecture, and clean code practices.',
@@ -139,7 +139,7 @@ export const experience = [
     role: 'Front-End Web Development Training',
     org: 'IEEE Damietta Student Branch',
     period: '05/2025 – 09/2025',
-    certificateUrl: '/IEEE_Certificate.pdf',
+    certificateUrl: '/my-portfolio/IEEE_Certificate.pdf',
     points: [
       'Mastered modern UI workflows using HTML5, CSS3, JavaScript, and responsive layout design practices.',
     ],
