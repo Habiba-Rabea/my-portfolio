@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #0b0712;
+    color: #f1f5f9;
+    font-family: system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Glassmorphic Card Style */
+.glass-card {
+  background: rgba(20, 13, 33, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(168, 85, 247, 0.25);
+  border-radius: 1rem;
+}
+
+.glass-card:hover {
+  border-color: rgba(168, 85, 247, 0.55);
+  box-shadow: 0 0 25px rgba(168, 85, 247, 0.25);
+}
