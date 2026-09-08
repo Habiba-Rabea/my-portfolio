@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: '/my-portfolio', // اكتب اسم الـ Repository هنا بنفس الحروف exacta
   typescript: {
     ignoreBuildErrors: true,
   },
