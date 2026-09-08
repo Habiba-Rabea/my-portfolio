@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/my-portfolio', // اكتب اسم الـ Repository هنا بنفس الحروف exacta
+  basePath: '/my-portfolio',
+  assetPrefix: '/my-portfolio',
   typescript: {
     ignoreBuildErrors: true,
   },
